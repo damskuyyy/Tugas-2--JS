@@ -1,0 +1,69 @@
+/* contoh selector tag di eksternal */
+p{
+    color: brown;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+}
+body{
+    background-color: aquamarine;
+    background-image:url('../img/bg1.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+fieldset, legend{
+    border-width: 1px;
+    border-color: yellow;
+    border-radius: 30px;
+}
+legend{
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+}
+table{
+    border: 10px;
+    margin: auto;
+}
+/* contoh selector grouping dalam css */
+tr, td, th{  
+    padding: 5px;
+    border: 1px solid black;
+}
+td:hover{
+    background-color: white;
+    color: black;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+/* contoh selector id dalam css */
+#paragraph{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: aqua;
+}
+
+/* ul, li, a.item:link, a.item:visited, a.item:active{
+    text-decoration: none; 
+    list-style: none; 
+    display: block; 
+    float: left; 
+    padding: 2px 3px; 
+    background-color: white; 
+} */
+
+#navbar, a.item:link, a.item:visited, a.item:active {
+    text-decoration: none; /*menghilangkan garis pada link */
+    list-style: none; /*menghilangkan titik pada list */
+    display: block; /*mendisplay a sbg block */
+    float: left; /*memposisikan untuk bagian dari kiri */
+    padding: 5px 5px; /*memberi jarak dan membentuk persegi */
+    background-color: white; /* mewarnai block */
+}
+
